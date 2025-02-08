@@ -21,7 +21,14 @@ def count_characthers():
                     d[i] += 1
                 else:
                     d[i] = 1
-            print(d)
+            for k in d:
+                print(f"The \'{k}\' characther was found {d[k]} times")
+                
+
+              
+
+
+
 
 
 main()
